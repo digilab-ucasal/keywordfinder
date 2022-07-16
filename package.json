@@ -1,0 +1,49 @@
+{
+  "name": "keywordfinder",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@revolist/vue3-datagrid": "^3.1.0",
+    "@vuetify/vite-plugin": "^1.0.0-alpha.10",
+    "@vueuse/core": "^8.9.3",
+    "collect.js": "^4.34.3",
+    "mitt": "^3.0.0",
+    "path": "^0.12.7",
+    "pdfjs-dist": "^2.14.305",
+    "pinia": "^2.0.13",
+    "string-punctuation-tokenizer": "^2.2.0",
+    "uuid": "^8.3.2",
+    "vue": "^3.2.25",
+    "vue-pdf-embed": "^1.1.4",
+    "vue-router": "^4.1.2",
+    "vuetify": "npm:@vuetify/nightly@next",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "autoprefixer": "^10.4.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.7.1",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "sass": "^1.38.0",
+    "sass-loader": "^10.0.0",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.5",
+    "vitest": "^0.22.1",
+    "vue-cli-plugin-vuetify": "~2.4.8",
+    "vuetify-loader": "^2.0.0-alpha.0"
+  }
+}
